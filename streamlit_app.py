@@ -16,7 +16,7 @@ st.markdown("""<span style="word-wrap:break-word;">Berdasarkan data dari Kemente
 st.markdown('<div style="text-align: center;">Jumlah Timbulan Sampah Indonesia Tahun 2021</div>', unsafe_allow_html=True)
 
 st.dataframe(df)
-dt = pd.read_csv ("sampah123.csv")
+dt = pd.read_csv ("Sampah123.csv")
 
 st.markdown('<div style="text-align: center;">Jumlah Timbulan Sampah di Indonesia Perprovinsi Tahun 2021</div>', unsafe_allow_html=True)
 
