@@ -18,8 +18,8 @@ st.markdown('<div style="text-align: center;">Jumlah Timbulan Sampah Indonesia T
 st.dataframe(df)
 dt = pd.read_csv ("Sampah123.csv")
 
-st.markdown('<div style="text-align: center;">Jumlah Timbulan ada Sampah di Indonesia Perprovinsi Tahun 2021</div>', unsafe_allow_html=True)
+st.markdown('<div style="text-align: center;">Jumlah Timbulan Sampah di Indonesia Perprovinsi Tahun 2021</div>', unsafe_allow_html=True)
 
 st.bar_chart(dt)
 
-st.markdown("""<span style="word-wrap:break-word;">Berdasarkan wilayahnya, Jawa Tengah menjadi provinsi dengan sampah terbesar di Indonesia pada 2021, yakni 3,65 juta ton. Posisinya disusul oleh Jawa Timur dengan sampah sebanyak 2,64 juta ton. DKI Jakarta berada di posisi ketiga lantaran menyumbang 2,59 juta ton sampah. Kemudian, sampah yang dihasilkan di Jawa Barat sebanyak 2,11 juta ton..</span>""", unsafe_allow_html=True)
+st.markdown("""<span style="word-wrap:break-word;">Berdasarkan wilayahnya, Jawa Tengah menjadi provinsi dengan sampah terbesar di Indonesia pada 2021, yakni 3,65 juta ton. Posisinya disusul oleh Jawa Timur dengan sampah sebanyak 2,64 juta ton. DKI Jakarta berada di posisi ketiga lantaran menyumbang 2,59 juta ton sampah. Kemudian, sampah yang dihasilkan di Jawa Barat sebanyak 2,11 juta ton </span>""", unsafe_allow_html=True)
